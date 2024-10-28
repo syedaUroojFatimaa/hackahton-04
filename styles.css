@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use a professional sans-serif font */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f6f9; /* Light background for a clean look */
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #003366; /* Navy blue for professionalism */
+    font-weight: 700; /* Bold weight for prominence */
+}
+
+/* Form Styles */
+form {
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Softer shadow for depth */
+    padding: 40px;
+    max-width: 700px; /* Slightly wider for a more spacious layout */
+}
+
+fieldset {
+    border: none; /* Remove default border */
+    padding: 0;
+    margin-bottom: 20px; /* Spacing between sections */
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #003366; /* Navy blue for uniformity */
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500; /* Semi-bold for better readability */
+}
+
+input, textarea {
+    margin-top: 8px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #cccccc; /* Soft gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em; /* Standard font size */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+/* Button Styles */
+button {
+    display: block;
+    width: 100%;
+    background-color: #003366; /* Navy blue for a strong, professional look */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Spacing above the button */
+}
+
+button:hover {
+    background-color: #005099; /* Slightly lighter for hover effect */
+}
+
+/* Resume Display Styles */
+#resume-display {
+    max-width: 700px; /* Match form width */
+    margin: 40px auto; /* Centered and spaced from form */
+    padding: 30px;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+#resume-display h2 {
+    color: #003366; /* Navy blue for headings */
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#resume-display h3 {
+    color: #333;
+    font-size: 1.5em; /* Slightly larger for section headings */
+    margin-top: 20px; /* Spacing above sections */
+    font-weight: 500;
+}
+
+#resume-display p {
+    line-height: 1.6; /* Improved line height for readability */
+    color: #555; /* Darker gray for better contrast */
+    font-size: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+    body {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    form, #resume-display {
+        padding: 20px; /* Adjust padding for mobile */
+    }
+
+    button {
+        font-size: 1em; /* Standardize button size */
+    }
+}
